@@ -18,6 +18,9 @@ public class StudentDriver {
 		nextStudent = new Student("Zach Bobos", "M", 1, 19);
 		// cmp112.students[studentCount++] = nextStudent;
 		cmp112.setStudent(nextStudent, studentCount++);
+		nextStudent = new Student("Kyle Delinsky", "M", 1, 19);
+		// cmp112.students[studentCount++] = nextStudent;
+		cmp112.setStudent(nextStudent, studentCount++);
 		System.out.println(cmp112.toString());
 		
 

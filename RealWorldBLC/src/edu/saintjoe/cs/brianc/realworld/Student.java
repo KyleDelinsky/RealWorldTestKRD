@@ -46,6 +46,8 @@ public class Student {
 		return classYr;
 	}
 	
+	public 
+	
 	public String toString() {
 		return ("Student: " + name + " Gender: " + gender + " Class Year: " + classYr + " Age: " + age);
 	}
