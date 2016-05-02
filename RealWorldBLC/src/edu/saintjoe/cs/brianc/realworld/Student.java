@@ -10,12 +10,15 @@ public class Student {
 	/* Data members above, methods below */
 	
 	// Right now a "full data" constructor only
-	public Student(String newName, String newGender, int newClassYr, int newAge) {
+	public Student(String newName, String newGender, int newClassYr, int newAge, String newColor) {
 		name = newName;
 		gender = newGender;
 		classYr = newClassYr;
 		age = newAge;
+		// Keeps track of hair color
+		color = newColor;
 	}
+
 	
 	// Accessors and Mutators for the data members
 	public void setName(String newName) {
@@ -31,6 +34,7 @@ public class Student {
 	public int getAge() {
 		return age;
 	}
+
 	
 	public void setGender(String newGender) {
 		gender = newGender;
@@ -45,8 +49,14 @@ public class Student {
 	public int getClassYr() {
 		return classYr;
 	}
-	
-	public 
+
+	public void setColor(String newColor){
+		color = newColor;
+	}
+	public String getColor() {
+		return color;
+	}
+	}
 	
 	public String toString() {
 		return ("Student: " + name + " Gender: " + gender + " Class Year: " + classYr + " Age: " + age);

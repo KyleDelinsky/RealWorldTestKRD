@@ -14,7 +14,7 @@ public class Course {
 	private String teacher;
 	private Student[] students;
 	private String room;
-	
+	private String color;
 	/* Data members above, methods below */
 	
 	public Course (String newTitle, String newTeacher, String newRoom) {
